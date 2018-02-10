@@ -21,12 +21,11 @@ def main():#void function
     while keep_going == 'y':
         number = int(input('Please enter a number between 1 and 10: '))
 
-        if number < 1 or number > 10:
+        while number < 1 or number > 10:
             print('Invalid number')
             number = int(input('Please enter a number between 1 and 10: '))
 
-        else:
-            result = assignment4.factorial(number)
+        result = assignment4.factorial(number)
 
         print('The factorial of ',number,' is ',result,'.')
         print()
