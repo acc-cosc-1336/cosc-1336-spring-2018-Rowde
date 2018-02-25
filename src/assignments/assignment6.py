@@ -14,15 +14,12 @@ def get_count_A_C_G_and_T_in_string(dna_string):
         if ch == 'A':
             A_count += 1
 
-    for ch in dna_string.upper():
         if ch == 'C':
             C_count += 1
 
-    for ch in dna_string.upper():
         if ch == 'G':
             G_count += 1
 
-    for ch in dna_string.upper():
         if ch == 'T':
             T_count += 1
 
