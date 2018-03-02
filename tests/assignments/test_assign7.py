@@ -1,6 +1,6 @@
 import unittest
 #write the import for function for assignment7 sum_list_values
-from assignment7 import sum_list_values
+from src.assignments.assignment7 import sum_list_values
 
 class Test_Assign7(unittest.TestCase):
 
@@ -24,4 +24,4 @@ class Test_Assign7(unittest.TestCase):
     def test_sum_list_values_john_14_32_25_16_89(self):
         self.assertEqual(176, sum_list_values(['john','14','32','25','16','89']))
 
-unittest.main(verbosity=2)    
+#unittest.main(verbosity=2)    
